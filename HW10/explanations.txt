@@ -1,0 +1,9 @@
+without the using namespace std the code
+will not work because it is missing the std:: prefix which is 
+a namespaces. The :: tells the complier which class / namespace 
+to look into. In that case you sould need to add std:: in front of every cin 
+and cout.
+
+
+The Critter :: tells the complier that it belongs to the class Critter 
+and what are accessing the method of the class you are using in side that class
